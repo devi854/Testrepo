@@ -1,0 +1,25 @@
+name: Project-2
+
+on:
+  
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'Project-2/**'
+      
+  
+
+  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+    
+        
+        
+     
+
