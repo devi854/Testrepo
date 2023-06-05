@@ -1,4 +1,4 @@
-name: deploy1
+name: deploy2
 
 on:
   
@@ -13,7 +13,7 @@ on:
   
 
 jobs:
-  Project1:
+  Project2:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
